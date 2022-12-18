@@ -1,0 +1,1120 @@
+{
+    "userLogins": [
+        {
+            "email": "test@test.com",
+            "password": "admin123"
+        },
+        {
+            "email": "alex@test.com",
+            "password": "abcd"
+        },
+        {
+            "email": "dapo@test.com",
+            "password": "a1b2c3"
+        }
+    ],
+    "contactList": [
+        {
+            "name": "John Quil",
+            "summery": {
+                "lastMessageDate": "today",
+                "pinned": true,
+                "lastOutMessage": "Hi John,are you avalable now.",
+                "lastOutMessageViewed": true
+            },
+            "messages": [
+                {
+                    "date": "Monday",
+                    "chatList": [
+                        {
+                            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Vestibulum pellentesque suscipit purus eget tempor",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Proin dapibus, augue in condimentum congue",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Sed interdum ultricies ultricies",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Maecenas accumsan viverra ex, non vestibulum tellus commodo sit amet",
+                            "time": "10.18 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nunc sit amet commodo neque",
+                            "time": "10.23 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "yesterday",
+                    "chatList": [
+                        {
+                            "message": "Proin ut lorem vel tortor feugiat porta quis eget velit",
+                            "time": "2.45 pm",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "3.12 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Duis tincidunt cursus nisl ac bibendum. In hac habitasse platea dictumst.",
+                            "time": "3.14 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": " Nam arcu enim, fringilla at placerat sed, fermentum nec magna. Fusce posuere vel augue vitae fringilla.",
+                            "time": "3.21 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "today",
+                    "chatList": [
+                        {
+                            "message": "Suspendisse vitae ligula consequat, placerat dolor eu, fermentum metus.",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Pellentesque vitae lorem neque. Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Donec mattis venenatis ipsum, vitae placerat tellus vestibulum eget.",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Maecenas vitae laoreet ex, vitae consequat augue.",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Del Phineum",
+            "summery": {
+                "lastMessageDate": "Friday",
+                "lastInMessage": "Are you avalable now",
+                "unReadInMessageCount": 2,
+                "profileImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRij6dtiHizH96qpCOe8WeXXP3yLyQJkPdGVg&usqp=CAU"
+            },
+            "messages": [
+                {
+                    "date": "09/12/2022",
+                    "chatList": [
+                        {
+                            "message": "Proin ut lorem vel tortor feugiat porta quis eget velit",
+                            "time": "2.45 pm",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "3.12 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Duis tincidunt cursus nisl ac bibendum. In hac habitasse platea dictumst.",
+                            "time": "3.14 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": " Nam arcu enim, fringilla at placerat sed, fermentum nec magna. Fusce posuere vel augue vitae fringilla.",
+                            "time": "3.21 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "11/12/2022",
+                    "chatList": [
+                        {
+                            "message": "Suspendisse vitae ligula consequat, placerat dolor eu, fermentum metus.",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Pellentesque vitae lorem neque. Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Donec mattis venenatis ipsum, vitae placerat tellus vestibulum eget.",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Maecenas vitae laoreet ex, vitae consequat augue.",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        }
+                    ]
+                },
+                {
+                    "date": "Friday",
+                    "chatList": [
+                        {
+                            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Vestibulum pellentesque suscipit purus eget tempor",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Proin dapibus, augue in condimentum congue",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Sed interdum ultricies ultricies",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Maecenas accumsan viverra ex, non vestibulum tellus commodo sit amet",
+                            "time": "10.18 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nunc sit amet commodo neque",
+                            "time": "10.23 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lee Nonmi",
+            "summery": {
+                "lastMessageDate": "today",
+                "pinned": false,
+                "lastOutMessage": "Hi Lee,are you avalable now.",
+                "lastOutMessageViewed": true,
+                "profileImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwgu1A5zgPSvfE83nurkuzNEoXs9DMNr8Ww&usqp=CAU"
+            },
+            "messages": [
+                {
+                    "date": "Monday",
+                    "chatList": [
+                        {
+                            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Vestibulum pellentesque suscipit purus eget tempor",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Proin dapibus, augue in condimentum congue",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Sed interdum ultricies ultricies",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Maecenas accumsan viverra ex, non vestibulum tellus commodo sit amet",
+                            "time": "10.18 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nunc sit amet commodo neque",
+                            "time": "10.23 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "yesterday",
+                    "chatList": [
+                        {
+                            "message": "Proin ut lorem vel tortor feugiat porta quis eget velit",
+                            "time": "2.45 pm",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "3.12 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Duis tincidunt cursus nisl ac bibendum. In hac habitasse platea dictumst.",
+                            "time": "3.14 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": " Nam arcu enim, fringilla at placerat sed, fermentum nec magna. Fusce posuere vel augue vitae fringilla.",
+                            "time": "3.21 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "today",
+                    "chatList": [
+                        {
+                            "message": "Suspendisse vitae ligula consequat, placerat dolor eu, fermentum metus.",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Pellentesque vitae lorem neque. Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Donec mattis venenatis ipsum, vitae placerat tellus vestibulum eget.",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Maecenas vitae laoreet ex, vitae consequat augue.",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "A. Mused",
+            "summery": {
+                "lastMessageDate": "Friday",
+                "lastInMessage": "Are you avalable now",
+                "profileImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLsupI89wVbXLRzxaiHG_rezqk3FrqDeMmog&usqp=CAU"
+            },
+            "messages": [
+                {
+                    "date": "09/12/2022",
+                    "chatList": [
+                        {
+                            "message": "Proin ut lorem vel tortor feugiat porta quis eget velit",
+                            "time": "2.45 pm",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "3.12 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Duis tincidunt cursus nisl ac bibendum. In hac habitasse platea dictumst.",
+                            "time": "3.14 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": " Nam arcu enim, fringilla at placerat sed, fermentum nec magna. Fusce posuere vel augue vitae fringilla.",
+                            "time": "3.21 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "11/12/2022",
+                    "chatList": [
+                        {
+                            "message": "Suspendisse vitae ligula consequat, placerat dolor eu, fermentum metus.",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Pellentesque vitae lorem neque. Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Donec mattis venenatis ipsum, vitae placerat tellus vestibulum eget.",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Maecenas vitae laoreet ex, vitae consequat augue.",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        }
+                    ]
+                },
+                {
+                    "date": "Friday",
+                    "chatList": [
+                        {
+                            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Vestibulum pellentesque suscipit purus eget tempor",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Proin dapibus, augue in condimentum congue",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Sed interdum ultricies ultricies",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Maecenas accumsan viverra ex, non vestibulum tellus commodo sit amet",
+                            "time": "10.18 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nunc sit amet commodo neque",
+                            "time": "10.23 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fay Daway",
+            "summery": {
+                "lastMessageDate": "today",
+                "pinned": false,
+                "lastOutMessage": "Lorem ipsum dolor sit amet",
+                "lastOutMessageViewed": true,
+                "profileImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsynwv-5qtogtOwJbIjaPFJUmHpzhxgqIAug&usqp=CAU"
+            },
+            "messages": [
+                {
+                    "date": "Monday",
+                    "chatList": [
+                        {
+                            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Vestibulum pellentesque suscipit purus eget tempor",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Proin dapibus, augue in condimentum congue",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Sed interdum ultricies ultricies",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Maecenas accumsan viverra ex, non vestibulum tellus commodo sit amet",
+                            "time": "10.18 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nunc sit amet commodo neque",
+                            "time": "10.23 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "yesterday",
+                    "chatList": [
+                        {
+                            "message": "Proin ut lorem vel tortor feugiat porta quis eget velit",
+                            "time": "2.45 pm",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "3.12 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Duis tincidunt cursus nisl ac bibendum. In hac habitasse platea dictumst.",
+                            "time": "3.14 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": " Nam arcu enim, fringilla at placerat sed, fermentum nec magna. Fusce posuere vel augue vitae fringilla.",
+                            "time": "3.21 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "today",
+                    "chatList": [
+                        {
+                            "message": "Suspendisse vitae ligula consequat, placerat dolor eu, fermentum metus.",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Pellentesque vitae lorem neque. Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Donec mattis venenatis ipsum, vitae placerat tellus vestibulum eget.",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Maecenas vitae laoreet ex, vitae consequat augue.",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Frank N. Stein",
+            "summery": {
+                "lastMessageDate": "Friday",
+                "lastInMessage": "Proin ut lorem vel tortor feugiat porta quis eget velit",
+                "unReadInMessageCount": 1,
+                "profileImg": "data:image/jpeg;base64,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"
+            },
+            "messages": [
+                {
+                    "date": "09/12/2022",
+                    "chatList": [
+                        {
+                            "message": "Proin ut lorem vel tortor feugiat porta quis eget velit",
+                            "time": "2.45 pm",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "3.12 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Duis tincidunt cursus nisl ac bibendum. In hac habitasse platea dictumst.",
+                            "time": "3.14 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": " Nam arcu enim, fringilla at placerat sed, fermentum nec magna. Fusce posuere vel augue vitae fringilla.",
+                            "time": "3.21 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "11/12/2022",
+                    "chatList": [
+                        {
+                            "message": "Suspendisse vitae ligula consequat, placerat dolor eu, fermentum metus.",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Pellentesque vitae lorem neque. Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Donec mattis venenatis ipsum, vitae placerat tellus vestibulum eget.",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Maecenas vitae laoreet ex, vitae consequat augue.",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        }
+                    ]
+                },
+                {
+                    "date": "Friday",
+                    "chatList": [
+                        {
+                            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Vestibulum pellentesque suscipit purus eget tempor",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Proin dapibus, augue in condimentum congue",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Sed interdum ultricies ultricies",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Maecenas accumsan viverra ex, non vestibulum tellus commodo sit amet",
+                            "time": "10.18 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nunc sit amet commodo neque",
+                            "time": "10.23 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Greg Arias",
+            "summery": {
+                "lastMessageDate": "today",
+                "pinned": false,
+                "lastOutMessage": "Hi Greg,are you avalable now.",
+                "lastOutMessageViewed": true
+            },
+            "messages": [
+                {
+                    "date": "Monday",
+                    "chatList": [
+                        {
+                            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Vestibulum pellentesque suscipit purus eget tempor",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Proin dapibus, augue in condimentum congue",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Sed interdum ultricies ultricies",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Maecenas accumsan viverra ex, non vestibulum tellus commodo sit amet",
+                            "time": "10.18 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nunc sit amet commodo neque",
+                            "time": "10.23 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "yesterday",
+                    "chatList": [
+                        {
+                            "message": "Proin ut lorem vel tortor feugiat porta quis eget velit",
+                            "time": "2.45 pm",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "3.12 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Duis tincidunt cursus nisl ac bibendum. In hac habitasse platea dictumst.",
+                            "time": "3.14 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": " Nam arcu enim, fringilla at placerat sed, fermentum nec magna. Fusce posuere vel augue vitae fringilla.",
+                            "time": "3.21 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "today",
+                    "chatList": [
+                        {
+                            "message": "Suspendisse vitae ligula consequat, placerat dolor eu, fermentum metus.",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Pellentesque vitae lorem neque. Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Donec mattis venenatis ipsum, vitae placerat tellus vestibulum eget.",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Maecenas vitae laoreet ex, vitae consequat augue.",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Del Phineum",
+            "summery": {
+                "lastMessageDate": "Friday",
+                "lastInMessage": "Are you avalable now",
+                "unReadInMessageCount": 1,
+                "profileImg": "data:image/jpeg;base64,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"
+            },
+            "messages": [
+                {
+                    "date": "09/12/2022",
+                    "chatList": [
+                        {
+                            "message": "Proin ut lorem vel tortor feugiat porta quis eget velit",
+                            "time": "2.45 pm",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "3.12 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Duis tincidunt cursus nisl ac bibendum. In hac habitasse platea dictumst.",
+                            "time": "3.14 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": " Nam arcu enim, fringilla at placerat sed, fermentum nec magna. Fusce posuere vel augue vitae fringilla.",
+                            "time": "3.21 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "11/12/2022",
+                    "chatList": [
+                        {
+                            "message": "Suspendisse vitae ligula consequat, placerat dolor eu, fermentum metus.",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Pellentesque vitae lorem neque. Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Donec mattis venenatis ipsum, vitae placerat tellus vestibulum eget.",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Maecenas vitae laoreet ex, vitae consequat augue.",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        }
+                    ]
+                },
+                {
+                    "date": "Friday",
+                    "chatList": [
+                        {
+                            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Vestibulum pellentesque suscipit purus eget tempor",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Proin dapibus, augue in condimentum congue",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Sed interdum ultricies ultricies",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Maecenas accumsan viverra ex, non vestibulum tellus commodo sit amet",
+                            "time": "10.18 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nunc sit amet commodo neque",
+                            "time": "10.23 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bridget Theriveaquai",
+            "summery": {
+                "lastMessageDate": "today",
+                "pinned": false,
+                "lastOutMessage": "Hi John,are you avalable now.",
+                "lastOutMessageViewed": true,
+                "profileImg": "data:image/jpeg;base64,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"
+            },
+            "messages": [
+                {
+                    "date": "Monday",
+                    "chatList": [
+                        {
+                            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Vestibulum pellentesque suscipit purus eget tempor",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Proin dapibus, augue in condimentum congue",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Sed interdum ultricies ultricies",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Maecenas accumsan viverra ex, non vestibulum tellus commodo sit amet",
+                            "time": "10.18 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nunc sit amet commodo neque",
+                            "time": "10.23 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "yesterday",
+                    "chatList": [
+                        {
+                            "message": "Proin ut lorem vel tortor feugiat porta quis eget velit",
+                            "time": "2.45 pm",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "3.12 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Duis tincidunt cursus nisl ac bibendum. In hac habitasse platea dictumst.",
+                            "time": "3.14 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": " Nam arcu enim, fringilla at placerat sed, fermentum nec magna. Fusce posuere vel augue vitae fringilla.",
+                            "time": "3.21 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "today",
+                    "chatList": [
+                        {
+                            "message": "Suspendisse vitae ligula consequat, placerat dolor eu, fermentum metus.",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Pellentesque vitae lorem neque. Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Donec mattis venenatis ipsum, vitae placerat tellus vestibulum eget.",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Maecenas vitae laoreet ex, vitae consequat augue.",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Frank N. Stein",
+            "summery": {
+                "lastMessageDate": "Friday",
+                "lastInMessage": "Are you avalable now",
+                "unReadInMessageCount": 3,
+                "profileImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR72aEsvFKoRJpfaWB4G1ftrlpe8tN5O6rPhigr1s7UmPYWxH3PeYE2Z1Gqmv8VnT8qtsc&usqp=CAU"
+            },
+            "messages": [
+                {
+                    "date": "09/12/2022",
+                    "chatList": [
+                        {
+                            "message": "Proin ut lorem vel tortor feugiat porta quis eget velit",
+                            "time": "2.45 pm",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "3.12 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Duis tincidunt cursus nisl ac bibendum. In hac habitasse platea dictumst.",
+                            "time": "3.14 pm",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": " Nam arcu enim, fringilla at placerat sed, fermentum nec magna. Fusce posuere vel augue vitae fringilla.",
+                            "time": "3.21 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                },
+                {
+                    "date": "11/12/2022",
+                    "chatList": [
+                        {
+                            "message": "Suspendisse vitae ligula consequat, placerat dolor eu, fermentum metus.",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Pellentesque vitae lorem neque. Nullam tincidunt feugiat ante ut varius. Donec hendrerit nisi id feugiat varius. Sed dictum auctor odio eget dignissim.",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Donec mattis venenatis ipsum, vitae placerat tellus vestibulum eget.",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Maecenas vitae laoreet ex, vitae consequat augue.",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        }
+                    ]
+                },
+                {
+                    "date": "Friday",
+                    "chatList": [
+                        {
+                            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "time": "9.45 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Vestibulum pellentesque suscipit purus eget tempor",
+                            "time": "10.05 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Proin dapibus, augue in condimentum congue",
+                            "time": "10.12 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Sed interdum ultricies ultricies",
+                            "time": "10.15 am",
+                            "messageType": "out",
+                            "viewed": true
+                        },
+                        {
+                            "message": "Maecenas accumsan viverra ex, non vestibulum tellus commodo sit amet",
+                            "time": "10.18 am",
+                            "messageType": "in",
+                            "viewed": false
+                        },
+                        {
+                            "message": "Nunc sit amet commodo neque",
+                            "time": "10.23 am",
+                            "messageType": "in",
+                            "viewed": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+
+@import 'common';
+
+.err-alert {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    .err-caption {
+        display: inline-block;
+        vertical-align: middle;
+        width: calc(100% - 50px);
+        @include fontSize(13);
+        color: #D30303;
+        @include margin(0,0,0,10);
+        @include fontWeight(500);
+        line-height: 1.25;
+    }
+}

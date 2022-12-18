@@ -1,0 +1,95 @@
+@import '../styles/common';
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.login-wrapper {
+    z-index: 2;
+    @extend .flex-center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .login-header {
+        @extend .flex-center;
+        justify-content: center;
+        width: 90%;
+        @include minHeight(39);
+        @include margin (10, auto, 10, auto);
+    }
+
+    .headerTitle {
+        @include fontSize(14);
+        @include fontWeight(700);
+        @include margin(0, 0, 0, 10);
+        color: #fff;
+    }
+}
+
+.login-wrapper-before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    @include height(175);
+    background-color: #00a884;
+}
+
+.login-window {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    @include minHeight(100);
+
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 17px 50px 0 rgb(11 20 26 / 19%), 0 12px 15px 0 rgb(11 20 26 / 24%);
+}
+
+.login-type-seperator {
+    text-align: center;
+    background-color: #ccc;
+    @include height(1);
+    line-height: 0;
+    isolation: isolate;
+    @include margin(30,0,30,0);
+    &:before {
+        @include width(25);
+        @include height(20);
+        position: absolute;
+        content: '';
+        display: block;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+.loging-main {
+    @include padding(25, 25, 25, 25);
+}
+
+@media screen and (min-width: 430px) {
+    .login-wrapper {
+        .login-header {
+            @include width(400);
+            @include margin (27, auto, 28, auto);
+        }
+    }
+
+    .login-wrapper-before {
+        height: 222px;
+    }
+
+    .login-window {
+        width: 400px;
+    }
+}

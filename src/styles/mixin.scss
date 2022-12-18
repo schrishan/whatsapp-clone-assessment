@@ -1,0 +1,30 @@
+@mixin fontSize($value) {
+    font-size: ($value / 16) + rem;
+}
+
+@mixin fontWeight($value) {
+    font-weight: ($value);
+}
+@mixin width($value) {
+    width: ($value / 16) + rem;
+}
+@mixin minHeight($value) {
+    min-height: ($value / 16) + rem;
+}
+@mixin minWidth($value) {
+    min-width: ($value / 16) + rem;
+}
+@mixin height($value) {
+    height: ($value / 16) + rem;
+}
+
+@mixin margin($valT, $valR, $valB, $valL){
+    $valT: if($valT != 'auto', $valT / 16 + rem, auto, );
+    $valR: if($valR != 'auto', $valR / 16 + rem, auto, );
+    $valB: if($valB != 'auto', $valB / 16 + rem, auto, );
+    $valL: if($valL != 'auto', $valL / 16 + rem, auto, );
+    margin: $valT $valR $valB $valL;
+}
+@mixin padding($valT, $valR, $valB, $valL){
+    padding: $valT / 16 + rem $valR / 16 + rem $valB / 16 + rem $valL / 16 + rem;
+}

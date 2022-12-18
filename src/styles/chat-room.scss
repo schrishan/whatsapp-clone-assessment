@@ -1,0 +1,46 @@
+@import 'common';
+
+.main-container {
+    display: block;
+    width: 100%;
+}
+
+.contacts-holder {
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    .contact-active &{
+        height: 100%;
+    }
+}
+
+.chat-window {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    .contact-active &{
+        display: block;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .main-container {
+        display: flex;
+    }
+    .contacts-holder {
+        width: 30%;
+        @include minWidth(280);
+    }
+    .contacts-holder {
+        height: 100vh;
+        .contact-active &{
+            height: 100vh;
+        }
+    }
+    .chat-window {
+        display: block;
+        .contact-active &{
+            display: block;
+        }
+    }
+}

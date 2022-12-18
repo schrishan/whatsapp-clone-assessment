@@ -1,0 +1,59 @@
+@import 'common';
+.login-form {
+    @include margin(25, 0, 25, 0)
+}
+
+.field {
+    margin-bottom: 1rem;
+    @include margin(0, 0, 16, 0);
+
+    &>label {
+        @include margin(0, 0, 8, 0);
+    }
+
+    input {
+        outline: none;
+        appearance: none;
+        width: 100%;
+        border: 1px solid #3b4a54;
+        color: $font-color;
+        border-radius: 0.25rem;
+        @include padding(8, 8, 8, 8);
+        @include fontSize(16);
+
+        .invalid-state & {
+            border-color: #D30303;
+          }
+    }
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 0.25rem;
+    @include padding(8, 15, 8, 15);
+
+    color: #fff;
+    @include fontSize(16);
+    width: 100%;
+
+    &.btn-login {
+        background-color: #2196f3;
+        border: 1px solid #2196f3;
+
+        &:hover {
+            background-color: #1c80cf;
+            border-color: #1c80cf;
+        }
+        .invalid-state & {
+            @include margin(15,0,0,0);
+          }
+    }
+}
+
+.btn-google-login {
+    @include margin(0,0,15,0);
+    button {
+        width: 100%;
+        justify-content: center;
+    }
+}

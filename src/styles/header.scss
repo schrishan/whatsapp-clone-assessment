@@ -1,0 +1,42 @@
+@import 'common';
+.header-wrapper {
+    background-color: #f0f2f5;
+    @include padding(10,16,10,16);
+    @include height(59);
+    border-bottom: 1px solid #e2e2e2;
+}
+.profile-img{
+    border-radius: 50%;
+    @include width(40);
+    @include height(40);
+    overflow: hidden;
+    cursor: pointer;
+    float: left;
+}
+
+.menu-block{
+    float: right;
+    color: #54656f;
+}
+.menu-itm {
+    display: inline-block;
+    box-sizing: border-box;
+    @include padding(8,8,8,8);
+    overflow: hidden;
+    border-radius: 50px;
+    @include width(40);
+    @include height(40);
+    position: relative;
+    cursor: pointer;
+    margin-left: 11px;
+    @include margin (0,0,0,11);
+    svg {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &:hover{
+        background-color: #ddd;
+    }
+}

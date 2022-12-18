@@ -1,0 +1,36 @@
+@import 'common';
+.chat-board-wrapper {
+    background:url(../assets/images/whatsapp-bg.png) #efeae2 repeat ;
+    height: calc(100% - 117px);
+    @include padding(10,15,10,15);
+    overflow-y: auto;
+    
+}
+.chart-date-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include margin(10,0,10,0)
+}
+.chart-date {
+    display: inline-block;
+    box-shadow: 0 1px 0.5px rgb(11 20 26 / 13%);
+    background-color: #fff;
+    border-radius: 8px;
+    @include padding(8,12,8,12);
+    text-transform: uppercase;
+    @include fontSize(14);
+    @include fontWeight(600);
+    box-sizing: border-box;
+}
+.message-wrapper.in + .message-wrapper.out,
+.message-wrapper.out + .message-wrapper.in {
+    margin-top: 15px;
+}
+
+@media screen and (min-width:768px) {
+    .chat-board-wrapper {
+        @include padding(10,50,10,50);
+        
+    }
+}

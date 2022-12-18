@@ -1,0 +1,98 @@
+@import 'common';
+.message-wrapper {
+    display: flex;
+    justify-content: end;
+    &.in{
+        justify-content: start;
+    }
+}
+
+.msg {
+    @include padding(6,7,8,9);
+    @include fontSize(14);
+    background-color: #d9fdd3;
+    box-shadow: 0 1px 0.5px rgb(11 20 26 / 13%);
+    border-radius: 8px 0 8px 8px;
+    max-width: 75%;
+    position: relative;
+    color: #333;
+    display: inline-block;
+    @include margin(0,0,2,0);
+
+    .drop-down-arrow {
+        color: #aaa;
+        background: linear-gradient(to right, rgba(255,255,255,0) 1%,rgba(254,255,254,0) 2%,rgba(217,253,211,1) 38%);
+        @include width(45);
+        @include height(38);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 0;
+        @include padding(0,0,0,5);
+        top: 0;
+        opacity: 0;
+        .in &{
+            background: linear-gradient(to right, rgba(255,255,255,0) 1%,rgba(255,255,255,0) 2%,rgba(255,255,255,1) 38%);
+        }
+    }
+    &:hover{
+        .drop-down-arrow,.reaction-btn {
+            opacity: 1;
+        }
+        
+    }
+    .in &{
+        border-radius: 0 8px 8px 8px;
+        background-color: #fff;
+    }
+}
+.txt {
+    @include fontSize(14);
+}
+.time {
+    @include fontSize(11);
+    color: #667781;
+    float: right;
+    @include margin(10,0,0,10);
+}
+.msg-viewed {
+    color: #53bdeb;
+    .in &{
+        display: none;
+    }
+}
+span.tail-out {
+    color: #d9fdd3;
+    position: absolute;
+    right: -8px;
+    top: -2px;
+    .in &{
+            color: #fff;
+            right: auto;
+            top: -2px;
+            left: -8px;
+            transform: scaleX(-1);
+    }
+}
+
+.reaction-btn {
+    @include width(25);
+    @include height(25);
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #fff;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -32px;
+    opacity: 0;
+    .in &{
+        left: auto;
+        right:-32px
+    }
+}
